@@ -1,1 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T21:06:46.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.456" version="14.0.5" etag="zRveMaUxpij3Xpxh4BW0" type="github"><diagram id="x9FP8gi5BoESvMvLBZKp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-17T21:27:36.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.456" etag="vbUV8GHUgRTRg5CDYAFC" version="14.0.5" type="github">
+  <diagram id="x9FP8gi5BoESvMvLBZKp" name="Page-1">
+    <mxGraphModel dx="1061" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2QKHue4xiSr7P-T-Oix--12" value="Команда готовки кофе" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="2QKHue4xiSr7P-T-Oix--2" target="2QKHue4xiSr7P-T-Oix--11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2QKHue4xiSr7P-T-Oix--9" value="Вывод списка кофе" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="2QKHue4xiSr7P-T-Oix--2" target="2QKHue4xiSr7P-T-Oix--3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2QKHue4xiSr7P-T-Oix--8" value="Выбор кофе" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.436;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2QKHue4xiSr7P-T-Oix--4" target="2QKHue4xiSr7P-T-Oix--2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2QKHue4xiSr7P-T-Oix--2" value="Program" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="70" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="2QKHue4xiSr7P-T-Oix--7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2QKHue4xiSr7P-T-Oix--2">
+          <mxGeometry x="45" y="60" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="2QKHue4xiSr7P-T-Oix--3" value="Actor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="70" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="2QKHue4xiSr7P-T-Oix--4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2QKHue4xiSr7P-T-Oix--3">
+          <mxGeometry x="45" y="60" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="2QKHue4xiSr7P-T-Oix--6" value="Ввод денег" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="2QKHue4xiSr7P-T-Oix--3" target="2QKHue4xiSr7P-T-Oix--2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="130" />
+              <mxPoint x="440" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2QKHue4xiSr7P-T-Oix--10" value="Вывод кофе" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="2QKHue4xiSr7P-T-Oix--11" target="2QKHue4xiSr7P-T-Oix--3">
+          <mxGeometry x="-0.2986" width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="350" />
+              <mxPoint x="390" y="350" />
+              <mxPoint x="350" y="350" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2QKHue4xiSr7P-T-Oix--11" value="MachineChange_State" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="70" width="130" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="2QKHue4xiSr7P-T-Oix--13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="650" y="280" width="10" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
